@@ -117,6 +117,7 @@
 .home4{
     background-color: $third;
     @extend .center;
+    border-radius: 0 0 100px 100px;
 
     > div{
 

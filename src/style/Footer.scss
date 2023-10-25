@@ -1,0 +1,40 @@
+@import "colors";
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+
+    .brand-name{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        > h1{
+            color: $third;
+        }
+
+
+    }
+
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+
+        > h2{
+            margin-bottom: 1rem;
+            font-family: $text2;
+            font-size: 1.8rem;
+        }
+        > a{
+            color: $dark;
+            font-size: 1.2rem;
+
+            &:hover{
+                color: $third;
+            }
+        }
+    }
+}
