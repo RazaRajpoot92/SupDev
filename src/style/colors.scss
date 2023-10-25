@@ -4,3 +4,14 @@ $third:#5853ff;
 $dark:rgb(44,44,44);
 $text1:"Roboto";
 $text2: cursive;
+$navColor: rgba(42, 82, 240, 0.788);
+$fourth:rgb(97, 214, 237);
+
+
+// Functions
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
