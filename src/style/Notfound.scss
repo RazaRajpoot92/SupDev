@@ -1,0 +1,8 @@
+@import "../style/colors.scss";
+.notfound{
+    width: 100%;
+    height: 60vh;
+    background-color: $second;
+    @extend .center;
+    color: $first;
+}
